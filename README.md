@@ -8,6 +8,7 @@ The stock market is known for its volatility and complex patterns. Traditional t
 
 ## LSTM Model
 ![image](https://github.com/Padmanabh03/Google_Stock_Price_Prediction_Using_LSTM/assets/71133619/c14a1e5c-490b-4053-8e21-69a06910392c)
+
 The LSTM's architecture comprises several components:
 
 - **Input gate**: Decides what new information to include in the cell state.
