@@ -17,6 +17,17 @@ The LSTM's architecture comprises several components:
 
 This design allows LSTMs to mitigate the vanishing gradient problem common in traditional RNNs, making them highly effective for our task of predicting stock prices, where the understanding of long-term trends is crucial.
 
+## Dataset Overview
+
+The dataset used in this project is split into two CSV files: `Google-Train.csv` for training and `Google-Test.csv` for testing our LSTM model.
+
+- **Training Set**: Contains historical daily stock prices of Google. Each entry includes attributes like the opening price, the highest price of the day, the lowest price, and the closing price.
+
+- **Testing Set**: Comprises more recent stock price data, structured similarly to the training set. This set is used to evaluate the model's performance by comparing its predictions to actual prices.
+
+The data is clean and well-organized, making it ideal for feeding into our LSTM model without requiring extensive preprocessing. We are only going to use the opening price for this prediction.
+
+
 ## Code Summary
 
 The LSTM model for stock price prediction goes through the following steps:
